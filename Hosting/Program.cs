@@ -19,9 +19,8 @@ namespace Hosting
             host.AddServiceEndpoint(typeof(ICliente), new BasicHttpBinding(), endereco);
             try
             {
-                //Subindo o serviço
                 host.Open();
-                ExibirIformacoesServico(host);
+                ExibirIformacoesServico(host); 
                 Console.ReadKey();
                 host.Close();
             }
