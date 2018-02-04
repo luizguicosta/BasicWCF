@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 namespace Passagens
 {
     [ServiceContract]
-    public interface ICliente
+    public interface IClienteService
     {
         [OperationContract]
         void Add(Cliente c);

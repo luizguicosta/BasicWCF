@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Passagens
 {
-    public class ClienteService : ICliente
+    public class ClienteService : IClienteService
     {
         public void Add(Cliente c)
         {

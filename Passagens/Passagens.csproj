@@ -47,7 +47,7 @@
     <Compile Include="Cliente.cs" />
     <Compile Include="ClienteDAO.cs" />
     <Compile Include="ClienteService.cs" />
-    <Compile Include="ICliente.cs" />
+    <Compile Include="IClienteService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -16,7 +16,7 @@ namespace Hosting
             //Criando o host para subir o serviço
             ServiceHost host = new ServiceHost(typeof(ClienteService));
             Uri endereco = new Uri("http://localhost:8080/Cliente");
-            host.AddServiceEndpoint(typeof(ICliente), new BasicHttpBinding(), endereco);
+            host.AddServiceEndpoint(typeof(IClienteService), new BasicHttpBinding(), endereco);
             try
             {
                 host.Open();
